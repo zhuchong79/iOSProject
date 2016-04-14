@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JumpTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MoY-xs-xep">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="o4S-hY-IUw"/>
+                                    <constraint firstAttribute="width" constant="46" id="v9z-xi-1NH"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="T37-IH-vI1" kind="modal" id="1CA-0u-eGS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MoY-xs-xep" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e7z-1j-uuS"/>
+                            <constraint firstItem="MoY-xs-xep" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="o5p-ik-j1H"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="497" y="-68"/>
+        </scene>
+        <!--Image View Controller-->
+        <scene sceneID="pcM-JS-r66">
+            <objects>
+                <viewController id="T37-IH-vI1" customClass="ImageViewController" customModule="JumpTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A6r-xu-uya"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ix8-OK-X4J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xph-yO-3xj">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon12" translatesAutoresizingMaskIntoConstraints="NO" id="ft4-Ug-syj">
+                                <rect key="frame" x="177" y="43" width="240" height="128"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rt0-lD-7mf">
+                                <rect key="frame" x="285" y="285" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="UHU-aY-aSU"/>
+                                    <constraint firstAttribute="height" constant="30" id="dCz-gl-Xg5"/>
+                                </constraints>
+                                <state key="normal" title="返回"/>
+                                <connections>
+                                    <action selector="backBtnClicked:" destination="T37-IH-vI1" eventType="touchUpInside" id="jrd-jS-cms"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rt0-lD-7mf" firstAttribute="centerY" secondItem="Xph-yO-3xj" secondAttribute="centerY" id="F43-n8-HW0"/>
+                            <constraint firstItem="Rt0-lD-7mf" firstAttribute="centerX" secondItem="Xph-yO-3xj" secondAttribute="centerX" id="T51-7C-7Ee"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Ys-xd-EK9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1178" y="-68"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon12" width="1000" height="1000"/>
+    </resources>
+</document>
