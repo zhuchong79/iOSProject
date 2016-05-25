@@ -2,6 +2,33 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:RegexTest/RegexTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FenleiTest/FenleiTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PListTestOSX/PListTestOSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PListTest/PListTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SingleViewTest/SingleViewTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:FileOp/FileOp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NavBarLearn1/NavBarLearn1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:dsf/dsf.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RACTest/RACTest.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:WebViewLearn/WebViewLearn.xcodeproj">
    </FileRef>
    <FileRef
