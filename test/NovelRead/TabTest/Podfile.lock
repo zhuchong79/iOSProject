@@ -1,0 +1,44 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - pop (1.0.9)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - UITextView+Placeholder (1.2.0)
+  - XFDialogBuilder (1.0.2):
+    - pop
+    - UITextView+Placeholder
+
+DEPENDENCIES:
+  - AFNetworking
+  - ReactiveCocoa
+  - XFDialogBuilder (= 1.0.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  UITextView+Placeholder: 77680995fcdd07c3f52ec92fe1150874a2ac89ff
+  XFDialogBuilder: 76393aa3187da2607912871d6b420cac31588ad2
+
+PODFILE CHECKSUM: b35c3527c6b97aad99f61631771fdd1f6bbf0ee4
+
+COCOAPODS: 1.1.1

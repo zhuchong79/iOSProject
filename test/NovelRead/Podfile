@@ -1,0 +1,13 @@
+platform :ios, '7.0'
+use_frameworks!
+#target 'NovelRead' do
+#	pod 'AFNetworking'
+#    pod 'ReactiveCocoa'
+#    pod 'XFDialogBuilder','1.0.2'
+#end
+project "TabTest.xcodeproj"
+target 'TabTest' do
+    pod 'AFNetworking'
+    pod 'ReactiveCocoa'
+    pod 'XFDialogBuilder','1.0.2'
+end

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MyWebViewController : UIViewController
-
+@property (nonatomic,copy) NSString*url;
+-(instancetype)initWithUrl:(NSString*)url;
 @end

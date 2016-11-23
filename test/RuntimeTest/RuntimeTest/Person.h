@@ -9,5 +9,10 @@
 #import "Biology.h"
 
 @interface Person : Biology
+{
+    NSString * father;
+}
+@property (nonatomic,copy)NSString * name;
+@property (nonatomic,assign)NSInteger age;
 
 @end

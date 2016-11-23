@@ -14,6 +14,11 @@
 		C99E75681D1A3BE60029B0B1 /* AnimationTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C99E75661D1A3BE60029B0B1 /* AnimationTest.xcdatamodeld */; };
 		C99E756A1D1A3BE60029B0B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99E75691D1A3BE60029B0B1 /* Assets.xcassets */; };
 		C99E756D1D1A3BE60029B0B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99E756B1D1A3BE60029B0B1 /* LaunchScreen.storyboard */; };
+		C99E75761D1A3F770029B0B1 /* AnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = C99E75751D1A3F770029B0B1 /* AnimationView.m */; };
+		C99E75791D1A668F0029B0B1 /* AnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99E75781D1A668F0029B0B1 /* AnimateViewController.m */; };
+		C99E757C1D1A6A380029B0B1 /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = C99E757B1D1A6A380029B0B1 /* ViewController1.m */; };
+		C99E757E1D1A7D990029B0B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99E757D1D1A7D990029B0B1 /* QuartzCore.framework */; };
+		C99E75811D1B7A8F0029B0B1 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C99E75801D1B7A8F0029B0B1 /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,15 @@
 		C99E75691D1A3BE60029B0B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C99E756C1D1A3BE60029B0B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C99E756E1D1A3BE60029B0B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99E75741D1A3F770029B0B1 /* AnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationView.h; sourceTree = "<group>"; };
+		C99E75751D1A3F770029B0B1 /* AnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationView.m; sourceTree = "<group>"; };
+		C99E75771D1A668F0029B0B1 /* AnimateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateViewController.h; sourceTree = "<group>"; };
+		C99E75781D1A668F0029B0B1 /* AnimateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateViewController.m; sourceTree = "<group>"; };
+		C99E757A1D1A6A380029B0B1 /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		C99E757B1D1A6A380029B0B1 /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		C99E757D1D1A7D990029B0B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C99E757F1D1B7A8F0029B0B1 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		C99E75801D1B7A8F0029B0B1 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99E757E1D1A7D990029B0B1 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +59,7 @@
 		C99E754E1D1A3BE60029B0B1 = {
 			isa = PBXGroup;
 			children = (
+				C99E757D1D1A7D990029B0B1 /* QuartzCore.framework */,
 				C99E75591D1A3BE60029B0B1 /* AnimationTest */,
 				C99E75581D1A3BE60029B0B1 /* Products */,
 			);
@@ -69,6 +85,14 @@
 				C99E756B1D1A3BE60029B0B1 /* LaunchScreen.storyboard */,
 				C99E756E1D1A3BE60029B0B1 /* Info.plist */,
 				C99E75661D1A3BE60029B0B1 /* AnimationTest.xcdatamodeld */,
+				C99E75771D1A668F0029B0B1 /* AnimateViewController.h */,
+				C99E75781D1A668F0029B0B1 /* AnimateViewController.m */,
+				C99E75741D1A3F770029B0B1 /* AnimationView.h */,
+				C99E75751D1A3F770029B0B1 /* AnimationView.m */,
+				C99E757A1D1A6A380029B0B1 /* ViewController1.h */,
+				C99E757B1D1A6A380029B0B1 /* ViewController1.m */,
+				C99E757F1D1B7A8F0029B0B1 /* ViewController2.h */,
+				C99E75801D1B7A8F0029B0B1 /* ViewController2.m */,
 				C99E755A1D1A3BE60029B0B1 /* Supporting Files */,
 			);
 			path = AnimationTest;
@@ -152,10 +176,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99E75791D1A668F0029B0B1 /* AnimateViewController.m in Sources */,
+				C99E757C1D1A6A380029B0B1 /* ViewController1.m in Sources */,
 				C99E75621D1A3BE60029B0B1 /* ViewController.m in Sources */,
 				C99E755F1D1A3BE60029B0B1 /* AppDelegate.m in Sources */,
 				C99E75681D1A3BE60029B0B1 /* AnimationTest.xcdatamodeld in Sources */,
+				C99E75811D1B7A8F0029B0B1 /* ViewController2.m in Sources */,
 				C99E755C1D1A3BE60029B0B1 /* main.m in Sources */,
+				C99E75761D1A3F770029B0B1 /* AnimationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

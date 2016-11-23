@@ -11,6 +11,5 @@
 @interface ViewController : UIViewController
 
 
-- (IBAction)sdaf:(id)sender;
 @end
 

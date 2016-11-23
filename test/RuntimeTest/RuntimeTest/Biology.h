@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Biology : NSObject
-
+{
+    NSInteger * _hairCountinBiology;
+}
+@property (nonatomic, copy) NSString *introInBiology;
 @end

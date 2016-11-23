@@ -34,6 +34,7 @@
     //写入文件
     [usersDic writeToFile:plistPath atomically:YES];
 }
+
 - (IBAction)readfile:(id)sender {
     NSArray *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSLog(@"%@", path);

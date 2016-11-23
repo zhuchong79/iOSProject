@@ -48,6 +48,8 @@
     [leftButton release];
     [rightButton release];*/
 }
+- (IBAction)fdsg:(id)sender {
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

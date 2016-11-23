@@ -1,0 +1,6 @@
+framework module XFDialogBuilder {
+  umbrella header "XFDialogBuilder-umbrella.h"
+
+  export *
+  module * { export * }
+}

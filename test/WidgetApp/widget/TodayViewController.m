@@ -10,6 +10,7 @@
 #import <NotificationCenter/NotificationCenter.h>
 
 @interface TodayViewController () <NCWidgetProviding>
+@property (weak, nonatomic) IBOutlet UILabel *testLabel;
 
 @end
 
@@ -18,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    NSUserDefaults*userDefault =[[NSUserDefaults alloc] initWithSuiteName:@"group.hxl.widget"];
+    NSString *str=[userDefault valueForKey:@"test"];
+    _testLabel.text=str;
+    
 }
 
 - (void)didReceiveMemoryWarning {

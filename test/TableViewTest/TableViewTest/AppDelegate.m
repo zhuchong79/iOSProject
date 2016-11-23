@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "KCTableTableViewController.h"
 
 @interface AppDelegate ()
 

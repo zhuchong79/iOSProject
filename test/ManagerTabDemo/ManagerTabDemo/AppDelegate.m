@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+#import "UIViewController1.h"
+#import "UIViewController2.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,47 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    
+
+    UITabBarController *tabCtrl= [[UITabBarController alloc]init];
+    
+    
+    UIViewController1*viewctrl1=[[UIViewController1 alloc]init];
+    //viewctrl1.view.backgroundColor=[UIColor yellowColor];
+    viewctrl1.navigationItem.title=@"da1";
+    UINavigationController *navCtrl1=[[UINavigationController alloc]initWithRootViewController:viewctrl1];
+    navCtrl1.tabBarItem=[[UITabBarItem alloc]initWithTitle:@"图1" image:[UIImage imageNamed:@"liveTV_icon_selected"] tag:0];
+
+    UIViewController2*viewctrl2=[[UIViewController2 alloc]init];
+    viewctrl2.view.backgroundColor=[UIColor redColor];
+    viewctrl2.navigationItem.title=@"da2";
+    UINavigationController *navCtrl2=[[UINavigationController alloc]initWithRootViewController:viewctrl2];
+    //navCtrl2.title=@"title2";
+    navCtrl2.tabBarItem=[[UITabBarItem alloc]initWithTitle:@"图2" image:[UIImage imageNamed:@"liveTV_icon_selected"] tag:1];
+    
+    ViewController*viewctrl3= [[ViewController alloc]init];
+    viewctrl3.navigationItem.title=@"da3";
+    UINavigationController *navCtrl3=[[UIStoryboard storyboardWithName:@"Main" bundle:nil]instantiateInitialViewController];
+    
+    navCtrl3.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"图3" image:[UIImage imageNamed:@"liveTV_icon_selected"] tag:1];
+    
+/*
+    CGRect bounds = [[UIScreen mainScreen]applicationFrame];
+    UIWebView* webView = [[UIWebView alloc]initWithFrame:bounds];
+   // UIWebView *webView = [[UIWebView alloc]initWithFrame:];
+    UIViewController *viewctrl= [[UIViewController alloc] init];
+    [viewctrl.view addSubview:webView];
+    webView.scalesPageToFit = YES;
+    NSURLRequest *url= [[NSURLRequest alloc]initWithURL:[[NSURL alloc]initWithString:@"https://www.baidu.com"]];
+    [webView loadRequest:url];
+    
+    UINavigationController *navCtrl4=[[UINavigationController alloc]initWithRootViewController:viewctrl];
+    navCtrl4.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"图4" image:[UIImage imageNamed:@"liveTV_icon_selected"] tag:1];
+  */
+    tabCtrl.viewControllers=@[navCtrl1,navCtrl2,navCtrl3];
+    self.window.rootViewController = tabCtrl;
+    
     return YES;
 }
 

@@ -26,4 +26,6 @@
 
 - (IBAction)sdaf:(id)sender {
 }
+- (IBAction)touchin:(id)sender {
+}
 @end

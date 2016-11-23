@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyAlertController : UIAlertController
+@interface UIAlertController (MyAlertController)
+
 
 @end

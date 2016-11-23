@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyTextView : UITextView
+@interface EFSTextView : UITextView
 
 @end

@@ -6,7 +6,7 @@
 //  Copyright © 2016年 hxl. All rights reserved.
 //
 
-#import "MyTextView.h"
+#import "EFSTextView.h"
 
 @implementation EFSTextView
 -(BOOL)canPerformAction:(SEL)action withSender:(id)sender

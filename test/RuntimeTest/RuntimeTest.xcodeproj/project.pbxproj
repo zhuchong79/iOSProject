@@ -14,6 +14,8 @@
 		C9ACE5AE1D1D056A00647D4F /* RuntimeTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9ACE5AC1D1D056A00647D4F /* RuntimeTest.xcdatamodeld */; };
 		C9ACE5B01D1D056A00647D4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9ACE5AF1D1D056A00647D4F /* Assets.xcassets */; };
 		C9ACE5B31D1D056A00647D4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9ACE5B11D1D056A00647D4F /* LaunchScreen.storyboard */; };
+		C9ACE5BC1D1D05A900647D4F /* Biology.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ACE5BB1D1D05A900647D4F /* Biology.m */; };
+		C9ACE5BF1D1D080D00647D4F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C9ACE5BE1D1D080D00647D4F /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		C9ACE5AF1D1D056A00647D4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9ACE5B21D1D056A00647D4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9ACE5B41D1D056A00647D4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9ACE5BA1D1D05A900647D4F /* Biology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Biology.h; sourceTree = "<group>"; };
+		C9ACE5BB1D1D05A900647D4F /* Biology.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Biology.m; sourceTree = "<group>"; };
+		C9ACE5BD1D1D080D00647D4F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C9ACE5BE1D1D080D00647D4F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +75,11 @@
 				C9ACE5B11D1D056A00647D4F /* LaunchScreen.storyboard */,
 				C9ACE5B41D1D056A00647D4F /* Info.plist */,
 				C9ACE5AC1D1D056A00647D4F /* RuntimeTest.xcdatamodeld */,
+				C9ACE5BA1D1D05A900647D4F /* Biology.h */,
+				C9ACE5BB1D1D05A900647D4F /* Biology.m */,
 				C9ACE5A01D1D056A00647D4F /* Supporting Files */,
+				C9ACE5BD1D1D080D00647D4F /* Person.h */,
+				C9ACE5BE1D1D080D00647D4F /* Person.m */,
 			);
 			path = RuntimeTest;
 			sourceTree = "<group>";
@@ -152,10 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9ACE5BF1D1D080D00647D4F /* Person.m in Sources */,
 				C9ACE5AE1D1D056A00647D4F /* RuntimeTest.xcdatamodeld in Sources */,
 				C9ACE5A81D1D056A00647D4F /* ViewController.m in Sources */,
 				C9ACE5A51D1D056A00647D4F /* AppDelegate.m in Sources */,
 				C9ACE5A21D1D056A00647D4F /* main.m in Sources */,
+				C9ACE5BC1D1D05A900647D4F /* Biology.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

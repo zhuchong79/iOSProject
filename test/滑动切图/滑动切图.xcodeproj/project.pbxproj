@@ -12,7 +12,6 @@
 		C929B4D71D20C3C600892016 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C929B4D61D20C3C600892016 /* ViewController.m */; };
 		C929B4DA1D20C3C600892016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C929B4D81D20C3C600892016 /* Main.storyboard */; };
 		C929B4DD1D20C3C600892016 /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C929B4DB1D20C3C600892016 /* ____.xcdatamodeld */; };
-		C929B4DF1D20C3C600892016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C929B4DE1D20C3C600892016 /* Assets.xcassets */; };
 		C929B4E21D20C3C600892016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C929B4E01D20C3C600892016 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +24,6 @@
 		C929B4D61D20C3C600892016 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C929B4D91D20C3C600892016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C929B4DC1D20C3C600892016 /* ____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "____.xcdatamodel"; sourceTree = "<group>"; };
-		C929B4DE1D20C3C600892016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C929B4E11D20C3C600892016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C929B4E31D20C3C600892016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +63,6 @@
 				C929B4D51D20C3C600892016 /* ViewController.h */,
 				C929B4D61D20C3C600892016 /* ViewController.m */,
 				C929B4D81D20C3C600892016 /* Main.storyboard */,
-				C929B4DE1D20C3C600892016 /* Assets.xcassets */,
 				C929B4E01D20C3C600892016 /* LaunchScreen.storyboard */,
 				C929B4E31D20C3C600892016 /* Info.plist */,
 				C929B4DB1D20C3C600892016 /* ____.xcdatamodeld */,
@@ -140,7 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C929B4E21D20C3C600892016 /* LaunchScreen.storyboard in Resources */,
-				C929B4DF1D20C3C600892016 /* Assets.xcassets in Resources */,
 				C929B4DA1D20C3C600892016 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +300,7 @@
 				C929B4E81D20C3C600892016 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

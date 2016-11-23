@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface TableViewCell : UITableViewCell
-
+-(void) setConfig:(NSString *)data;
 @end

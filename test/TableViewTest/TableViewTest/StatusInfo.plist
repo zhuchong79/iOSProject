@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   StatusInfo.plist
-   TableViewTest
-
-   Created by hxl on 16/6/29.
-   Copyright (c) 2016年 hxl. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+<array>
     <dict>
-    
+        <key>Id</key>
+        <string>0</string>
+        <key>createAt</key>
+        <string>9:23</string>
+        <key>mbtype</key>
+        <string>mbtype.png</string>
+        <key>profileImageUrl</key>
+        <string>1.jpg</string>
+        <key>source</key>
+        <string>iPhone 5s</string>
+        <key>text</key>
+        <string>距离iPhone 6发布还有不到一个月</string>
+        <key>userName</key>
+        <string>小冰1</string>
     </dict>
+	<dict>
+		<key>Id</key>
+		<string>1</string>
+		<key>createAt</key>
+		<string>8:23</string>
+		<key>mbtype</key>
+		<string>mbtype.png</string>
+		<key>profileImageUrl</key>
+		<string>1.jpg</string>
+		<key>source</key>
+		<string>iPhone 5s</string>
+		<key>text</key>
+		<string>距离iPhone 6发布还有不到一个月</string>
+		<key>userName</key>
+		<string>小冰</string>
+	</dict>
+    </array>
 </plist>

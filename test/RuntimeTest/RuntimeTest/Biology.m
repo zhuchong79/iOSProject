@@ -6,8 +6,9 @@
 //  Copyright © 2016年 hxl. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "Biology.h"
-
-@implementation Biology
+#import <objc/runtime.h>
+@implementation Biology 
 
 @end

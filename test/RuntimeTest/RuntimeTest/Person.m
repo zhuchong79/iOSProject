@@ -7,7 +7,14 @@
 //
 
 #import "Person.h"
+@interface Person () <NSCopying,NSCoding>
+
+@end
 
 @implementation Person
 
+- (void) encodeWithCoder:(NSCoder *)aCoder
+{
+
+}
 @end

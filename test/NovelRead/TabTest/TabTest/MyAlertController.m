@@ -8,16 +8,48 @@
 
 #import "MyAlertController.h"
 
-@interface MyAlertController ()
+@implementation UIAlertController (MyAlertController)
++ (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(UIAlertControllerStyle)preferredStyle
+{
+    return self;
+}
 
-@end
+- (instancetype)initWithTitle:(NSString*)title message:(NSString*)msg
+{
 
-@implementation MyAlertController
+    __weak typeof(self) weakAlert = self;
+    
+    [self addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDestructive handler:^(UIAlertAction *action) {
+        NSLog(@"点击了确定按钮--%@-%@", [weakAlert.textFields.firstObject text], [weakAlert.textFields.lastObject text]);
+    }]];
+    [self addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        NSLog(@"点击了取消按钮");
+    }]];
+    
+    [self addAction:[UIAlertAction actionWithTitle:@"其它" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        NSLog(@"点击了其它按钮");
+    }]];
+    
+    // 添加文本框
+    [self addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+        textField.textColor = [UIColor redColor];
+        textField.text = @"123";
+        [textField addTarget:self action:@selector(usernameDidChange:) forControlEvents:UIControlEventEditingChanged];
+        //        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(usernameDidChange:) name:UITextFieldTextDidChangeNotification object:textField];
+    }];
+    [self addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+        textField.secureTextEntry = YES;
+        textField.text = @"123";
+    }];
+
+    return self;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
+    //self.preferredStyle = UIAlertControllerStyleAlert;
+   }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

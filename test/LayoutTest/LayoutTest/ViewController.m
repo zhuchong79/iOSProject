@@ -13,6 +13,8 @@
 @end
 
 @implementation ViewController
+- (IBAction)ds:(id)sender {
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

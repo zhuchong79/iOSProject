@@ -14,6 +14,10 @@
 		C9AB6BD31D588A0C0094EDFA /* UrlLabel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9AB6BD11D588A0C0094EDFA /* UrlLabel.xcdatamodeld */; };
 		C9AB6BD51D588A0C0094EDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AB6BD41D588A0C0094EDFA /* Assets.xcassets */; };
 		C9AB6BD81D588A0C0094EDFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9AB6BD61D588A0C0094EDFA /* LaunchScreen.storyboard */; };
+		C9AB6BE11D588A910094EDFA /* UrlLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AB6BE01D588A910094EDFA /* UrlLabel.m */; };
+		C9AB6BE41D5897EE0094EDFA /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C9AB6BE31D5897EE0094EDFA /* TTTAttributedLabel.m */; };
+		C9CC72951D5C2311000229B0 /* EFSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CC72941D5C2311000229B0 /* EFSTextView.m */; };
+		C9CC72981D5C4FAD000229B0 /* MyWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CC72971D5C4FAD000229B0 /* MyWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,14 @@
 		C9AB6BD41D588A0C0094EDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9AB6BD71D588A0C0094EDFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9AB6BD91D588A0C0094EDFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9AB6BDF1D588A910094EDFA /* UrlLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlLabel.h; sourceTree = "<group>"; };
+		C9AB6BE01D588A910094EDFA /* UrlLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlLabel.m; sourceTree = "<group>"; };
+		C9AB6BE21D5897EE0094EDFA /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		C9AB6BE31D5897EE0094EDFA /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		C9CC72931D5C2311000229B0 /* EFSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFSTextView.h; sourceTree = "<group>"; };
+		C9CC72941D5C2311000229B0 /* EFSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFSTextView.m; sourceTree = "<group>"; };
+		C9CC72961D5C4FAD000229B0 /* MyWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebViewController.h; sourceTree = "<group>"; };
+		C9CC72971D5C4FAD000229B0 /* MyWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,8 @@
 		C9AB6BC41D588A0C0094EDFA /* UrlLabel */ = {
 			isa = PBXGroup;
 			children = (
+				C9AB6BE21D5897EE0094EDFA /* TTTAttributedLabel.h */,
+				C9AB6BE31D5897EE0094EDFA /* TTTAttributedLabel.m */,
 				C9AB6BC81D588A0C0094EDFA /* AppDelegate.h */,
 				C9AB6BC91D588A0C0094EDFA /* AppDelegate.m */,
 				C9AB6BCB1D588A0C0094EDFA /* ViewController.h */,
@@ -70,6 +84,12 @@
 				C9AB6BD91D588A0C0094EDFA /* Info.plist */,
 				C9AB6BD11D588A0C0094EDFA /* UrlLabel.xcdatamodeld */,
 				C9AB6BC51D588A0C0094EDFA /* Supporting Files */,
+				C9AB6BDF1D588A910094EDFA /* UrlLabel.h */,
+				C9AB6BE01D588A910094EDFA /* UrlLabel.m */,
+				C9CC72931D5C2311000229B0 /* EFSTextView.h */,
+				C9CC72941D5C2311000229B0 /* EFSTextView.m */,
+				C9CC72961D5C4FAD000229B0 /* MyWebViewController.h */,
+				C9CC72971D5C4FAD000229B0 /* MyWebViewController.m */,
 			);
 			path = UrlLabel;
 			sourceTree = "<group>";
@@ -155,7 +175,11 @@
 				C9AB6BD31D588A0C0094EDFA /* UrlLabel.xcdatamodeld in Sources */,
 				C9AB6BCD1D588A0C0094EDFA /* ViewController.m in Sources */,
 				C9AB6BCA1D588A0C0094EDFA /* AppDelegate.m in Sources */,
+				C9CC72981D5C4FAD000229B0 /* MyWebViewController.m in Sources */,
 				C9AB6BC71D588A0C0094EDFA /* main.m in Sources */,
+				C9AB6BE11D588A910094EDFA /* UrlLabel.m in Sources */,
+				C9CC72951D5C2311000229B0 /* EFSTextView.m in Sources */,
+				C9AB6BE41D5897EE0094EDFA /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +328,7 @@
 				C9AB6BDE1D588A0C0094EDFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1BD8959DBCB5223289872D /* Pods_TabTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D41BE405EDB3C3ED76310C /* Pods_TabTest.framework */; };
+		C94B16FC1DE4189B005B3273 /* MyAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C94B16FB1DE4189B005B3273 /* MyAlertController.m */; };
 		C9F9DAA51DD5A1C80050BD01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9DAA41DD5A1C80050BD01 /* main.m */; };
 		C9F9DAA81DD5A1C80050BD01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9DAA71DD5A1C80050BD01 /* AppDelegate.m */; };
 		C9F9DAAB1DD5A1C80050BD01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F9DAAA1DD5A1C80050BD01 /* ViewController.m */; };
@@ -14,9 +16,14 @@
 		C9F9DAB11DD5A1C80050BD01 /* TabTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9F9DAAF1DD5A1C80050BD01 /* TabTest.xcdatamodeld */; };
 		C9F9DAB31DD5A1C80050BD01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F9DAB21DD5A1C80050BD01 /* Assets.xcassets */; };
 		C9F9DAB61DD5A1C80050BD01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F9DAB41DD5A1C80050BD01 /* LaunchScreen.storyboard */; };
+		C9F9DABE1DD5B2530050BD01 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F9DABD1DD5B2530050BD01 /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D1FC0E6890A25E5AC1690CC /* Pods-TabTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabTest/Pods-TabTest.release.xcconfig"; sourceTree = "<group>"; };
+		4FF56EDD87BA5F03AC90BB65 /* Pods-TabTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabTest/Pods-TabTest.debug.xcconfig"; sourceTree = "<group>"; };
+		C94B16FA1DE4189B005B3273 /* MyAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlertController.h; sourceTree = "<group>"; };
+		C94B16FB1DE4189B005B3273 /* MyAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlertController.m; sourceTree = "<group>"; };
 		C9F9DAA01DD5A1C80050BD01 /* TabTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F9DAA41DD5A1C80050BD01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9F9DAA61DD5A1C80050BD01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +35,8 @@
 		C9F9DAB21DD5A1C80050BD01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9F9DAB51DD5A1C80050BD01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9F9DAB71DD5A1C80050BD01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F9DABD1DD5B2530050BD01 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		D8D41BE405EDB3C3ED76310C /* Pods_TabTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1BD8959DBCB5223289872D /* Pods_TabTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90B716AB5EE3ADA1500BEF32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FF56EDD87BA5F03AC90BB65 /* Pods-TabTest.debug.xcconfig */,
+				3D1FC0E6890A25E5AC1690CC /* Pods-TabTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9CC992C80903B96C29F47DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8D41BE405EDB3C3ED76310C /* Pods_TabTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C9F9DA971DD5A1C80050BD01 = {
 			isa = PBXGroup;
 			children = (
 				C9F9DAA21DD5A1C80050BD01 /* TabTest */,
 				C9F9DAA11DD5A1C80050BD01 /* Products */,
+				90B716AB5EE3ADA1500BEF32 /* Pods */,
+				9CC992C80903B96C29F47DD0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +99,9 @@
 				C9F9DAB71DD5A1C80050BD01 /* Info.plist */,
 				C9F9DAAF1DD5A1C80050BD01 /* TabTest.xcdatamodeld */,
 				C9F9DAA31DD5A1C80050BD01 /* Supporting Files */,
+				C9F9DABD1DD5B2530050BD01 /* View.xib */,
+				C94B16FA1DE4189B005B3273 /* MyAlertController.h */,
+				C94B16FB1DE4189B005B3273 /* MyAlertController.m */,
 			);
 			path = TabTest;
 			sourceTree = "<group>";
@@ -89,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9F9DABA1DD5A1C80050BD01 /* Build configuration list for PBXNativeTarget "TabTest" */;
 			buildPhases = (
+				2D983ABDA1BB2041C836C5BD /* [CP] Check Pods Manifest.lock */,
 				C9F9DA9C1DD5A1C80050BD01 /* Sources */,
 				C9F9DA9D1DD5A1C80050BD01 /* Frameworks */,
 				C9F9DA9E1DD5A1C80050BD01 /* Resources */,
+				86C53890A12C3475128AE201 /* [CP] Embed Pods Frameworks */,
+				87840C6A4545A7C4146A6047 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,6 +176,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F9DABE1DD5B2530050BD01 /* View.xib in Resources */,
 				C9F9DAB61DD5A1C80050BD01 /* LaunchScreen.storyboard in Resources */,
 				C9F9DAB31DD5A1C80050BD01 /* Assets.xcassets in Resources */,
 				C9F9DAAE1DD5A1C80050BD01 /* Main.storyboard in Resources */,
@@ -148,6 +184,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D983ABDA1BB2041C836C5BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86C53890A12C3475128AE201 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabTest/Pods-TabTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87840C6A4545A7C4146A6047 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabTest/Pods-TabTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9F9DA9C1DD5A1C80050BD01 /* Sources */ = {
@@ -158,6 +242,7 @@
 				C9F9DAA81DD5A1C80050BD01 /* AppDelegate.m in Sources */,
 				C9F9DAA51DD5A1C80050BD01 /* main.m in Sources */,
 				C9F9DAB11DD5A1C80050BD01 /* TabTest.xcdatamodeld in Sources */,
+				C94B16FC1DE4189B005B3273 /* MyAlertController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +358,7 @@
 		};
 		C9F9DABB1DD5A1C80050BD01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FF56EDD87BA5F03AC90BB65 /* Pods-TabTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 777PVCDQBX;
@@ -285,6 +371,7 @@
 		};
 		C9F9DABC1DD5A1C80050BD01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1FC0E6890A25E5AC1690CC /* Pods-TabTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 777PVCDQBX;
@@ -314,6 +401,7 @@
 				C9F9DABC1DD5A1C80050BD01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -30,6 +30,8 @@
    // pwd=[[MyUITextField alloc]initWithTextColor:[UIColor greenColor] withBackgroudColor:[UIColor whiteColor]];
     
 }
+- (IBAction)changed:(id)sender {
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

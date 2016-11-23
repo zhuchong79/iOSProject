@@ -2,6 +2,42 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:NovelRead/NovelRead.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WidgetApp/WidgetApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AutoScroll/AutoScroll.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UrlLabel/UrlLabel.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MyClock/MyClock.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SingleViewTest/SingleViewTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TableViewTest/TableViewTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x6ed1;&#x52a8;&#x5207;&#x56fe;/&#x6ed1;&#x52a8;&#x5207;&#x56fe;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:RuntimeTest/RuntimeTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LogShowToXcode/LogShowToXcode.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ManagerTabDemo/ManagerTabDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NSUserDefaultsTest/NSUserDefaultsTest.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:RegexTest/RegexTest.xcodeproj">
    </FileRef>
    <FileRef
@@ -12,9 +48,6 @@
    </FileRef>
    <FileRef
       location = "group:PListTest/PListTest.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:SingleViewTest/SingleViewTest.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:FileOp/FileOp.xcodeproj">
@@ -33,9 +66,6 @@
    </FileRef>
    <FileRef
       location = "group:OCLearn/OCLearn.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:PrefixSetTest/PrefixSetTest.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:EventTest/EventTest.xcodeproj">

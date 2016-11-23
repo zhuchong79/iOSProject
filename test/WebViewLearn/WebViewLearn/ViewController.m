@@ -52,4 +52,6 @@
     return YES;
     
 }
+- (IBAction)btnaction:(id)sender {
+}
 @end

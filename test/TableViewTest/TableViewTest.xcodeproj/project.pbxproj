@@ -14,6 +14,16 @@
 		C92D7AE01D22484300978AB8 /* TableViewTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C92D7ADE1D22484300978AB8 /* TableViewTest.xcdatamodeld */; };
 		C92D7AE21D22484300978AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C92D7AE11D22484300978AB8 /* Assets.xcassets */; };
 		C92D7AE51D22484300978AB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C92D7AE31D22484300978AB8 /* LaunchScreen.storyboard */; };
+		C92D7AFA1D23786800978AB8 /* KCContact.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D7AF71D23786800978AB8 /* KCContact.m */; };
+		C92D7AFB1D23786800978AB8 /* KCContactGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D7AF91D23786800978AB8 /* KCContactGroup.m */; };
+		C92D7AFE1D23789B00978AB8 /* KCTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D7AFD1D23789B00978AB8 /* KCTableTableViewController.m */; };
+		C92D7B041D23B33100978AB8 /* KCStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D7B031D23B33100978AB8 /* KCStatusViewController.m */; };
+		C92D7B071D23B3AB00978AB8 /* KCStatusTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D7B061D23B3AB00978AB8 /* KCStatusTableViewCell.m */; };
+		C92D7B0A1D23B42300978AB8 /* KCStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D7B091D23B42300978AB8 /* KCStatus.m */; };
+		C92D7B0C1D23B5C900978AB8 /* StatusInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = C92D7B0B1D23B5C900978AB8 /* StatusInfo.plist */; };
+		C92D7B111D23D14400978AB8 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D7B101D23D14400978AB8 /* MyTableViewCell.m */; };
+		C92D7B141D24BCCF00978AB8 /* AdView.m in Sources */ = {isa = PBXBuildFile; fileRef = C92D7B131D24BCCF00978AB8 /* AdView.m */; };
+		C9E080681D2E77F0007302B4 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E080671D2E77F0007302B4 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +38,25 @@
 		C92D7AE11D22484300978AB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C92D7AE41D22484300978AB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C92D7AE61D22484300978AB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C92D7AF61D23786800978AB8 /* KCContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCContact.h; sourceTree = "<group>"; };
+		C92D7AF71D23786800978AB8 /* KCContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCContact.m; sourceTree = "<group>"; };
+		C92D7AF81D23786800978AB8 /* KCContactGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCContactGroup.h; sourceTree = "<group>"; };
+		C92D7AF91D23786800978AB8 /* KCContactGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCContactGroup.m; sourceTree = "<group>"; };
+		C92D7AFC1D23789B00978AB8 /* KCTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCTableTableViewController.h; sourceTree = "<group>"; };
+		C92D7AFD1D23789B00978AB8 /* KCTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCTableTableViewController.m; sourceTree = "<group>"; };
+		C92D7B021D23B33100978AB8 /* KCStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCStatusViewController.h; sourceTree = "<group>"; };
+		C92D7B031D23B33100978AB8 /* KCStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCStatusViewController.m; sourceTree = "<group>"; };
+		C92D7B051D23B3AB00978AB8 /* KCStatusTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCStatusTableViewCell.h; sourceTree = "<group>"; };
+		C92D7B061D23B3AB00978AB8 /* KCStatusTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCStatusTableViewCell.m; sourceTree = "<group>"; };
+		C92D7B081D23B42300978AB8 /* KCStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCStatus.h; sourceTree = "<group>"; };
+		C92D7B091D23B42300978AB8 /* KCStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCStatus.m; sourceTree = "<group>"; };
+		C92D7B0B1D23B5C900978AB8 /* StatusInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = StatusInfo.plist; sourceTree = "<group>"; };
+		C92D7B0F1D23D14400978AB8 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		C92D7B101D23D14400978AB8 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		C92D7B121D24BCCF00978AB8 /* AdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdView.h; sourceTree = "<group>"; };
+		C92D7B131D24BCCF00978AB8 /* AdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdView.m; sourceTree = "<group>"; };
+		C9E080661D2E77F0007302B4 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		C9E080671D2E77F0007302B4 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +94,30 @@
 				C92D7AD81D22484300978AB8 /* ViewController.h */,
 				C92D7AD91D22484300978AB8 /* ViewController.m */,
 				C92D7ADB1D22484300978AB8 /* Main.storyboard */,
+				C92D7AF61D23786800978AB8 /* KCContact.h */,
+				C92D7AF71D23786800978AB8 /* KCContact.m */,
+				C92D7AF81D23786800978AB8 /* KCContactGroup.h */,
+				C92D7AF91D23786800978AB8 /* KCContactGroup.m */,
+				C92D7AFC1D23789B00978AB8 /* KCTableTableViewController.h */,
+				C92D7AFD1D23789B00978AB8 /* KCTableTableViewController.m */,
+				C92D7B021D23B33100978AB8 /* KCStatusViewController.h */,
+				C92D7B031D23B33100978AB8 /* KCStatusViewController.m */,
+				C92D7B081D23B42300978AB8 /* KCStatus.h */,
+				C92D7B091D23B42300978AB8 /* KCStatus.m */,
 				C92D7AE11D22484300978AB8 /* Assets.xcassets */,
 				C92D7AE31D22484300978AB8 /* LaunchScreen.storyboard */,
 				C92D7AE61D22484300978AB8 /* Info.plist */,
 				C92D7ADE1D22484300978AB8 /* TableViewTest.xcdatamodeld */,
 				C92D7AD21D22484300978AB8 /* Supporting Files */,
+				C92D7B051D23B3AB00978AB8 /* KCStatusTableViewCell.h */,
+				C92D7B061D23B3AB00978AB8 /* KCStatusTableViewCell.m */,
+				C92D7B0B1D23B5C900978AB8 /* StatusInfo.plist */,
+				C92D7B0F1D23D14400978AB8 /* MyTableViewCell.h */,
+				C92D7B101D23D14400978AB8 /* MyTableViewCell.m */,
+				C92D7B121D24BCCF00978AB8 /* AdView.h */,
+				C92D7B131D24BCCF00978AB8 /* AdView.m */,
+				C9E080661D2E77F0007302B4 /* TableViewCell.h */,
+				C9E080671D2E77F0007302B4 /* TableViewCell.m */,
 			);
 			path = TableViewTest;
 			sourceTree = "<group>";
@@ -141,6 +189,7 @@
 			files = (
 				C92D7AE51D22484300978AB8 /* LaunchScreen.storyboard in Resources */,
 				C92D7AE21D22484300978AB8 /* Assets.xcassets in Resources */,
+				C92D7B0C1D23B5C900978AB8 /* StatusInfo.plist in Resources */,
 				C92D7ADD1D22484300978AB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,10 +201,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92D7B111D23D14400978AB8 /* MyTableViewCell.m in Sources */,
+				C92D7AFE1D23789B00978AB8 /* KCTableTableViewController.m in Sources */,
+				C92D7B041D23B33100978AB8 /* KCStatusViewController.m in Sources */,
+				C92D7B071D23B3AB00978AB8 /* KCStatusTableViewCell.m in Sources */,
 				C92D7ADA1D22484300978AB8 /* ViewController.m in Sources */,
+				C92D7B0A1D23B42300978AB8 /* KCStatus.m in Sources */,
+				C9E080681D2E77F0007302B4 /* TableViewCell.m in Sources */,
+				C92D7AFA1D23786800978AB8 /* KCContact.m in Sources */,
 				C92D7AE01D22484300978AB8 /* TableViewTest.xcdatamodeld in Sources */,
 				C92D7AD71D22484300978AB8 /* AppDelegate.m in Sources */,
+				C92D7AFB1D23786800978AB8 /* KCContactGroup.m in Sources */,
 				C92D7AD41D22484300978AB8 /* main.m in Sources */,
+				C92D7B141D24BCCF00978AB8 /* AdView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +362,7 @@
 				C92D7AEB1D22484300978AB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
