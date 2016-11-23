@@ -2,7 +2,7 @@
 //  ViewController.m
 //  SingleViewTest
 //
-//  Created by hxl on 16/4/19.
+//  Created by hxl on 16/7/18.
 //  Copyright © 2016年 hxl. All rights reserved.
 //
 
@@ -17,8 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UILabel *lable =[UILabel alloc]initWithFrame:CGRectMake(0,0,50, 50, );
-    [lable.layer setMasksToBounds:YES
 }
 
 - (void)didReceiveMemoryWarning {
